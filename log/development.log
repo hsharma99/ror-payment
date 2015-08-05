@@ -1,0 +1,20 @@
+
+
+Started GET "/payments/payment" for 127.0.0.1 at 2015-08-05 15:21:44 +0530
+Connecting to database specified by database.yml
+Processing by PaymentsController#payment as HTML
+  Rendered payments/payment.erb within layouts/authorize_net (7.0ms)
+Completed 200 OK in 15.3ms (Views: 13.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/payments/thank_you?x_response_code=1&x_response_reason_code=1&x_response_reason_text=This+transaction+has+been+approved%2E&x_avs_code=Y&x_auth_code=KB5NCH&x_trans_id=2237944971&x_method=CC&x_card_type=Visa&x_account_number=XXXX1111&x_first_name=Preksha&x_last_name=Patel&x_company=test&x_address=test&x_city=test&x_state=test&x_zip=test&x_country=india&x_phone=9999999999&x_fax=&x_email=preksha1988%40gmail%2Ecom&x_invoice_num=&x_description=&x_type=auth%5Fcapture&x_cust_id=&x_ship_to_first_name=Preksha&x_ship_to_last_name=Patel&x_ship_to_company=test&x_ship_to_address=test&x_ship_to_city=test&x_ship_to_state=test&x_ship_to_zip=test&x_ship_to_country=india&x_amount=10%2E00&x_tax=0%2E00&x_duty=0%2E00&x_freight=0%2E00&x_tax_exempt=FALSE&x_po_num=&x_MD5_Hash=052C66D3EA411350C7F61BAEE38A13D6&x_cvv2_resp_code=&x_cavv_response=2&x_test_request=false&utf8=%13&authenticity_token=H7UCm3HZVgYHMQDzd70cksCXENSCc6cW9PhPvNpq6a8%3D&commit=Purchase&x_method_available=true" for 127.0.0.1 at 2015-08-05 15:24:24 +0530
+Processing by PaymentsController#thank_you as HTML
+  Parameters: {"x_response_code"=>"1", "x_response_reason_code"=>"1", "x_response_reason_text"=>"This transaction has been approved.", "x_avs_code"=>"Y", "x_auth_code"=>"KB5NCH", "x_trans_id"=>"2237944971", "x_method"=>"CC", "x_card_type"=>"Visa", "x_account_number"=>"XXXX1111", "x_first_name"=>"Preksha", "x_last_name"=>"Patel", "x_company"=>"test", "x_address"=>"test", "x_city"=>"test", "x_state"=>"test", "x_zip"=>"test", "x_country"=>"india", "x_phone"=>"9999999999", "x_fax"=>"", "x_email"=>"preksha1988@gmail.com", "x_invoice_num"=>"", "x_description"=>"", "x_type"=>"auth_capture", "x_cust_id"=>"", "x_ship_to_first_name"=>"Preksha", "x_ship_to_last_name"=>"Patel", "x_ship_to_company"=>"test", "x_ship_to_address"=>"test", "x_ship_to_city"=>"test", "x_ship_to_state"=>"test", "x_ship_to_zip"=>"test", "x_ship_to_country"=>"india", "x_amount"=>"10.00", "x_tax"=>"0.00", "x_duty"=>"0.00", "x_freight"=>"0.00", "x_tax_exempt"=>"FALSE", "x_po_num"=>"", "x_MD5_Hash"=>"052C66D3EA411350C7F61BAEE38A13D6", "x_cvv2_resp_code"=>"", "x_cavv_response"=>"2", "x_test_request"=>"false", "utf8"=>"\u0013", "authenticity_token"=>"H7UCm3HZVgYHMQDzd70cksCXENSCc6cW9PhPvNpq6a8=", "commit"=>"Purchase", "x_method_available"=>"true"}
+  Rendered payments/thank_you.erb within layouts/authorize_net (0.7ms)
+Completed 200 OK in 4.2ms (Views: 3.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/payments/payment" for 127.0.0.1 at 2015-08-05 16:50:23 +0530
+Processing by PaymentsController#payment as HTML
+  Rendered payments/payment.erb within layouts/authorize_net (3.7ms)
+Completed 200 OK in 6.4ms (Views: 5.7ms | ActiveRecord: 0.0ms)

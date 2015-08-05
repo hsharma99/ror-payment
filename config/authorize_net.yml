@@ -1,0 +1,8 @@
+default:
+  api_login_id: 2K52qrM5
+  api_transaction_key: 2255bsEcSN64K5yk
+  merchant_hash_value: MERCH_HASH_KEY
+
+development: 
+test: 
+production: 
